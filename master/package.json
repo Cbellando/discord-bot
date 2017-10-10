@@ -1,0 +1,34 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "Bot that automatically sends messages in a Disord chat.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cbellando/discord-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Caleb Bellando",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cbellando/discord-bot/issues"
+  },
+  "homepage": "https://github.com/Cbellando/discord-bot#readme",
+  "dependencies": {
+    "bufferutil": "^3.0.2",
+    "discord.js": "^11.2.1",
+    "erlpack": "github:hammerandchisel/erlpack",
+    "libsodium-wrappers": "^0.5.4",
+    "node-opus": "^0.2.6",
+    "opusscript": "^0.0.3",
+    "sodium": "^2.0.1",
+    "uws": "^0.14.5"
+  }
+}
